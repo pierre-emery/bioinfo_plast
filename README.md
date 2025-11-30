@@ -13,16 +13,17 @@ The rest of the repository contains the written report and support files for the
 
 ---
 
-## How it works 
+## How it works
 
 Given:
--i      query nucleotide sequence (string of A/C/G/T)
--db     FASTA file containing the sequence database
--E      greedy HSP extension cutoff (higher = longer extensions)
--ss     significance threshold on the E-value
--seed   seed pattern to use:
-          - contiguous: '11111111111'
-          - spaced: e.g. '111010010100110111' (PatternHunter-style)
+
+- `-i` query nucleotide sequence (string of A/C/G/T)  
+- `-db` FASTA file containing the sequence database  
+- `-E` greedy HSP extension cutoff (higher = longer extensions)  
+- `-ss` significance threshold on the E-value  
+- `-seed` seed pattern to use:
+  - contiguous: `'11111111111'`
+  - spaced: e.g. `'111010010100110111'` (PatternHunter-style)
           
 the program:
 
